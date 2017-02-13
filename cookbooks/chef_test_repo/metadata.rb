@@ -4,7 +4,7 @@ maintainer_email 'you@example.com'
 license 'all_rights'
 description 'Installs/Configures chef_test_repo'
 long_description 'Installs/Configures chef_test_repo'
-version '0.1.1'
+version '0.1.2'
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
@@ -19,4 +19,5 @@ issues_url 'https://github.com/Cavva79/chef_test_repo/issues' if respond_to?(:is
 source_url 'https://github.com/Cavva79/chef_test_repo' if respond_to?(:source_url)
 
 depends		'nexus3'
+depends		'firewalld'
 depends		'java_se'
